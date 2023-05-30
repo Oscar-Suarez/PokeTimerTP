@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/PokeTimerTP/static/css/main.e081aad0.css",
+    "main.js": "/PokeTimerTP/static/js/main.45ecc8ef.js",
+    "static/js/787.97781bc5.chunk.js": "/PokeTimerTP/static/js/787.97781bc5.chunk.js",
+    "static/media/Kanto.jpg": "/PokeTimerTP/static/media/Kanto.9654453ebdac04dc23cc.jpg",
+    "static/media/001.jpg": "/PokeTimerTP/static/media/001.3199fdb81439c94e281b.jpg",
+    "static/media/Lab.jpg": "/PokeTimerTP/static/media/Lab.0448c4f6e1bfb935ec73.jpg",
+    "static/media/arca.png": "/PokeTimerTP/static/media/arca.18e7a13fd7e6c0492298.png",
+    "static/media/Darkrai.png": "/PokeTimerTP/static/media/Darkrai.1a308f6c9d13094f209c.png",
+    "static/media/dex.png": "/PokeTimerTP/static/media/dex.fb0cd9669f7b75f501b3.png",
+    "static/media/wild.png": "/PokeTimerTP/static/media/wild.f55cea1b3952e8858ebc.png",
+    "static/media/choose1.png": "/PokeTimerTP/static/media/choose1.50b98eac856ac9ae1dcb.png",
+    "static/media/ball.png": "/PokeTimerTP/static/media/ball.b29996acd883f1fd3c6a.png",
+    "static/media/bl1.png": "/PokeTimerTP/static/media/bl1.6e7ed61959f5ff4a533a.png",
+    "index.html": "/PokeTimerTP/index.html",
+    "main.e081aad0.css.map": "/PokeTimerTP/static/css/main.e081aad0.css.map",
+    "main.45ecc8ef.js.map": "/PokeTimerTP/static/js/main.45ecc8ef.js.map",
+    "787.97781bc5.chunk.js.map": "/PokeTimerTP/static/js/787.97781bc5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.e081aad0.css",
+    "static/js/main.45ecc8ef.js"
+  ]
+}
