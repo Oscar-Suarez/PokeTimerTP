@@ -1,0 +1,147 @@
+.contBody {
+    background: -webkit-linear-gradient(150deg, #1F1C18, #fffbd5, #f00000);
+    background: linear-gradient(150deg, #1F1C18 20%, #fffbd5 45%, #f00000 90%);
+    min-height: calc(100vh - 60px);
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.contRegistro {
+    display: flex;
+    align-items: center;
+}
+
+.img {
+    width: 500px;
+
+}
+
+.contForm {
+    background-color: #fffbd500;
+    border-radius: 20px;
+    padding: 0px;
+
+    margin: 100px 100px 100px 90px;
+    box-shadow: 20px 35px 100px rgba(0, 0, 0, 0.5);
+}
+
+.form {
+    display: flex;
+    margin: 50px;
+    font-size: 18px;
+}
+
+.input {
+    font-size: 1em;
+    background-color: #fffbd500;
+    padding: 9px;
+    margin: 5px;
+    border-radius: 80px;
+    color: #ffffff;
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 1);
+}
+
+
+
+.input:active,
+.input:focus {
+    color: #000000;
+    border-radius: 80px;
+    border-color: rgba(0, 0, 0, 0.468);
+    outline: none;
+
+}
+
+
+.contBtn {
+    font-size: 10px;
+    height: 20px;
+    line-height: 20px;
+    margin-bottom: 50px;
+}
+
+.btn {
+    background-color: #00000000;
+    width: 100px;
+    height: 50px;
+    border-radius: 80px;
+    cursor: pointer;
+    box-shadow: 20px 35px 100px rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    text-shadow: 2px 2px 6px rgba(0, 0, 0, 1);
+    font-weight: bold;
+}
+
+.btn:hover {
+    border-color: rgba(0, 0, 0, 0.468);
+    color: #2a2323;
+}
+
+.h2 {
+    border-color: rgba(0, 0, 0, 0.468);
+    color: #ffffff;
+    margin: 10px 0px;
+}
+
+
+.contForm b{
+    cursor: pointer;
+}
+
+.mensaje{
+    color: #000000;
+    margin-top: 35px;
+}
+
+/*RESPONSIVIDAD CELULARES*/
+
+@media (max-width: 1400px){
+    .img {
+        width: 300px;
+    
+    }
+}
+@media (max-width: 1200px) {
+
+
+    .contRegistro {
+        flex-direction: column;
+        align-items: center;
+        margin-top: -80px;
+    }
+
+    .contForm {
+        margin-top: 140px;
+        width: 320px;
+        height: 300px;
+        padding: 20px;
+        margin-bottom: 20px;
+        color: #ffffff;
+    }
+    .contForm p{
+        margin-top: -20px;
+        color: #000000;
+    }
+    .form {
+        flex-direction: column;
+        margin: 20px;
+    }
+    .form label{
+        font-size: 16px;
+    }
+    .input {
+        font-size: 12px;
+        margin: 2px;
+        width: 100px;
+    }
+
+    .contBtn {
+        margin-top: 5px;
+    }
+
+    .btn {
+        width: 100px;
+        height: 40px;
+    }
+}

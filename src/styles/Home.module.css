@@ -1,0 +1,186 @@
+.background {
+    background-image: url('../assets/img/001.jpg');
+    padding: 10px;
+    position: relative;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-size: cover;
+    background-position: center;
+}
+
+.contPr {
+    background-color: #cb1616;
+    padding: 50px;
+    margin: 70px 200px;
+    border-radius: 20px;
+}
+
+.contCir {
+    display: flex;
+}
+
+.bCirc {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 174, 255, 0.768);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-right: 10px;
+}
+
+.intcirc {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: rgba(180, 234, 247, 0.79);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.circ1 {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 0, 0, 0.768);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 70px;
+}
+
+.circ2 {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: rgba(255, 255, 0, 0.768);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.circ3 {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    background-color: rgba(0, 255, 21, 0.768);
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    display: inline-block;
+    margin-left: 20px;
+}
+
+.contSec {
+    background-color: rgb(150, 147, 147);
+    padding: 10px 10px;
+    border-radius: 8px 8px 8px 50px;
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+}
+
+.contTer {
+    background-color: rgba(0, 174, 255, 0.768);
+    border-radius: 8px 8px 8px 50px;
+    margin: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    border-radius: 20px;
+}
+
+.h1 {
+    font-size: 50px;
+
+}
+
+.p {
+    font-size: 22px;
+    padding: 7px;
+    text-shadow: 7px 7px 10px rgba(0, 0, 0, 0.668);
+}
+
+@media (max-width: 830px) {
+    .background {
+
+        position: fixed;
+        overflow: auto; 
+        max-height: 100vh;
+
+    }
+    .contPr {
+        padding: 10px;
+        margin: 150px 10px 10px 10px;
+    }
+
+    .contCir {
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .bCirc {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 10px;
+        margin-right: 0;
+    }
+
+    .intcirc {
+        width: 40px;
+        height: 40px;
+        margin-bottom: 10px;
+        margin-right: 0;
+        margin-top: 10px;
+    }
+
+    .circ1 {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        background-color: rgba(255, 0, 0, 0.768);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        margin-left: 70px;
+    }
+
+    .circ2 {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        background-color: rgba(255, 255, 0, 0.768);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .circ3 {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 20px;
+        border-radius: 50%;
+        background-color: rgba(0, 255, 21, 0.768);
+        box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+        display: inline-block;
+        margin-left: 20px;
+    }
+
+    .contSec,
+    .contTer {
+        border-radius: 8px;
+        margin: 10px;
+    }
+
+    .h1 {
+        font-size: 30px;
+    }
+
+    .p {
+        font-size: 16px;
+        padding: 5px;
+    }
+}

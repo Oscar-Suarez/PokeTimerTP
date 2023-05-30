@@ -1,0 +1,223 @@
+.bkgd{    
+  background-image: url('../assets/img/Lab.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 98.7vw;
+  height: 100vh;
+  padding: 10px;
+  position: fixed;
+  overflow: auto;
+}
+
+.iniciales {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    margin-top: 200px;
+    background-color: rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    width: 100%;
+    max-width: 800px;
+    justify-content: space-around;
+  }
+
+
+  .scrollCont{
+    display: flex;
+  }
+  .iniciales h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .poke {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+
+  }
+  
+  .info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    box-shadow: 20px 35px 200px rgba(0, 0, 0, 0.5);
+    padding: 5px;
+    margin: 5px;
+    border-radius: 10px;
+  }
+  
+  
+  
+  .pokemon-0 {
+    background: #dd1818; 
+    background: -webkit-linear-gradient(200deg,  #dd1818 , #333333); 
+    background: linear-gradient(200deg, #dd1818, #333333); 
+    padding: 10px;
+    
+  }
+    
+  .pokemon-0 button {
+    padding: 10px 10px;
+    background-color: #dd1818; 
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+  }
+
+    
+  .background-4 {
+    background: #dd1818; 
+    background: -webkit-linear-gradient(200deg,  #dd1818 , #333333); 
+    background: linear-gradient(200deg, #dd1818, #333333); 
+    padding: 20px;
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+  }
+
+  .pokemon-1 {
+    background: #2980B9;  
+background: -webkit-linear-gradient(400deg, #FFFFFF, #6DD5FA, #2980B9);  
+background: linear-gradient(400deg, #FFFFFF, #6DD5FA, #2980B9); 
+  }
+
+  .pokemon-1 button {
+    padding: 10px 10px;
+    background-color: #2980B9; 
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+  }
+  
+  .background-258 {
+    background: #2980B9;  
+background: -webkit-linear-gradient(400deg, #FFFFFF, #6DD5FA, #2980B9);  
+background: linear-gradient(400deg, #FFFFFF, #6DD5FA, #2980B9); 
+padding: 40px;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+  }
+
+
+
+  .pokemon-2 {
+    background: #6be585;  
+background: -webkit-linear-gradient(200deg, #11998e, #6be585);  
+background: linear-gradient(400deg, #11998e, #6be585); 
+  }
+
+  .pokemon-2 button {
+    padding: 10px 10px;
+    background-color: #6be585; 
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    cursor: pointer;
+    width: 150px;
+    height: 50px;
+  }
+  
+    .background-810 {
+      background: #6be585;  
+      background: -webkit-linear-gradient(200deg, #11998e, #6be585);  
+      background: linear-gradient(400deg, #11998e, #6be585); 
+      padding: 40px;
+    height: 100vh;
+    position: fixed;
+    width: 100%;
+  }
+  
+
+  .pokeCont{
+    margin-top: -20px;
+    font-size: 20px;
+    margin-bottom: -80px;
+  }
+
+  .linkTimer{
+    position: fixed;
+      color: rgba(0, 0, 0, 0.814);
+      text-decoration: none;
+      font-weight: bold;
+      font-size: 60px;
+    margin-left: -220px;
+    }
+
+  /*RESPONSIVIDAD CELULAR*/
+
+  @media (max-width: 1000px) {
+
+    .iniciales {
+      font-size: 15px;
+    }
+  
+  }
+  @media (max-width: 700px) {
+
+    .linkTimer{
+      margin-top: 25px;
+        font-size: 35px;
+        margin-left: -140px;
+      }
+    .iniciales {
+      margin-top: 100px;
+      padding: 10px;
+      width: 210px;
+      height: 900px;
+      font-size: 10px;
+    }
+    .scrollCont{
+      flex-direction: column;
+    }
+    .poke {
+      width: 70px;
+      height: 70px;
+      margin-right: 10px;
+      margin-bottom: 0px;
+      
+    }
+    .info{
+      margin-top: -80px;
+      margin-bottom: 90px;
+    }
+    .pokemon-0 button,
+    .pokemon-1 button,
+    .pokemon-2 button {
+      width: 140px;
+      height: 50px;
+    }
+
+
+  .imgElegido{
+    width: 300px;
+    margin-left: 10%;
+  }
+
+  .background-258, 
+  .background-810, 
+  .background-4{
+    height: 1000px;
+  }
+
+  .pokeCont{
+    font-size: 15px;
+    margin-top: 40px;
+    margin-right: 8%;
+  }
+
+  .texto{
+    width: 60%;
+    margin-left: 18%;
+  }
+  }

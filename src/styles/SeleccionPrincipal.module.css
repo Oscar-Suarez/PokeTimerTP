@@ -1,0 +1,720 @@
+/*ANTES DE ELEGIR POKE*/
+.bkgd{    
+  background-image: url('../assets/img/choose1.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: rgba(255, 255, 255, 0.593);  
+  width: 500px;
+  height: 620px;
+  position: fixed;
+  top: 55%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 10px;
+  box-shadow: 30px 40px 500px rgba(0, 0, 0, 0.5);
+}
+
+.fondoKanto{
+  background-image: url('../assets/img/Kanto.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  overflow: auto;
+}
+
+
+.h1{
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.btn{
+       background-color: transparent;
+    width: 200px;
+    height: 100px;
+    border-radius: 80px;
+    cursor: pointer;
+    font-size: 17px;
+    margin-top: 370px;
+}
+
+
+.aColeccion{
+  margin-top: 15%;
+  width: 650px;
+  height: 500px;
+  border: none;
+  cursor: pointer;
+  background: none;
+  background-image: url('../assets/img/dex.png');
+  background-size: cover;
+}
+.h2Coleccion{
+  position: relative;
+  left: 7%;
+  bottom: 4%;
+  margin-right: 60%;
+  padding: 66px;
+  background-color: white;
+  z-index: -1;
+}
+
+@media (max-width: 630px) {
+
+  .aColeccion{
+    width: 350px;
+    height: 250px;
+    margin-top: 45%;
+  }
+  .h2Coleccion{
+    font-size: 15px;
+    left: 5%;
+    bottom: 2%;
+    padding: 33px;
+  }
+}
+.btn:hover {
+    background: linear-gradient(15deg, #1F1C18 20%, #ffffff 45%, #f00000 80%);
+    background-size: 200%;
+    animation-fill-mode: forwards;
+    animation-name: fillButton;
+    animation-duration: 0.5s;
+    animation-timing-function: linear;
+  }
+  
+  @keyframes fillButton {
+    100% {
+      background-position: 45%;
+    }
+  }
+
+
+    /*RESPONSIVIDAD CELULAR*/
+  @media (max-width: 550px) {
+    .bkgd {
+      width: 90%;
+      max-width: 320px;
+      height: 400px;
+      background-size: 300px;
+      top: 45%;
+      left: 50%;
+
+    }
+    
+    .h1 {
+      font-size: 28px;
+      margin-top: 10px;
+    }
+    
+    .btn {
+      width: 160px;
+      height: 50px;
+      font-size: 15px;
+      margin-top: 250px;
+    }
+  }
+
+
+                                              /*POKEMON PRINCIPAL*/
+
+
+.cont {
+  display: flex;
+  justify-content: center;
+  width: auto;
+  height: auto;
+}
+
+
+.background {
+  border-radius: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  box-shadow: 50px 50px 70px rgba(0, 0, 0, 0.5);
+  padding: 50px 100px 120px 100px;
+  margin: 50px 40px 90px 40px ;
+}
+
+.name{
+  font-size: 40px;
+  font-weight: bold;
+  -webkit-text-stroke: .4px #000000; 
+}
+
+.tipoPP {
+  padding: 4px 8px;
+  border-radius: 100vmax;
+  font-size: 25px;
+  margin-left: 10px;
+}
+
+.imgPP {
+  width: 500px;
+}
+
+
+
+/*NIVEL 100*/
+
+
+.background100 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  box-shadow: 50px 50px 70px rgba(0, 0, 0, 0.5);
+  position: absolute;
+  top: 46%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  padding: 10px 90px;
+  border-radius: 50px;
+
+}
+
+.cont100{
+  align-items: center;
+  flex-direction: column;
+}
+.imgPP100 {
+  width: 400px;
+}
+
+@media (max-width: 1220px) {
+  .background {
+    padding: 50px 20px 50px 20px;
+  }
+  
+}
+
+
+@media (max-width: 960px) {
+  .background {
+    padding: 40px;
+    margin: 30px 40px;
+  }
+  
+.name{
+  font-size: 30px;
+}
+
+.tipoPP {
+  font-size: 23px;
+}
+
+.imgPP {
+  width: 300px;
+}
+}
+
+
+@media (max-width: 800px){
+  .background {
+    padding: 40px 40px 600px;
+  }
+  .contPoke{
+    margin-left: 20%;
+  }
+
+.name{
+  margin-top: 0%;
+  margin-right: 10%;
+}
+.contTipos{
+  margin-right: 12%;
+}
+.imgPP {
+  width: 80%;
+}
+}
+@media (max-width: 690px){
+  .background100 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 50px 50px 70px rgba(0, 0, 0, 0.5);
+    position: absolute;
+    top: 46%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px 90px;
+    border-radius: 50px;
+  
+  }
+  
+  .cont100{
+    align-items: center;
+    flex-direction: column;
+  }
+  .imgPP100{
+    width: 400px;
+    margin-top: 0px;
+    margin-bottom: -50px;
+  }
+
+}
+@media (max-width: 500px){
+  .name{
+   font-size: 25px;
+  }
+  .imgPP {
+    width: 100%;
+  }
+  .contPoke{
+    margin-left: 10%;
+  }
+}
+@media (max-width: 475px){
+
+  .tipoPP{
+    font-size: 18px;
+  }
+}
+@media (max-width: 394px){
+  .contTipos{
+    margin-right: 0%;
+  }
+  .imgPP100{
+    width: 300px;
+  }
+  .contTipos{
+    margin-left: -20px;
+  }
+}
+
+@media (max-width: 360px){
+  .contInfo{
+    margin-left: -2%;
+  }
+
+}
+
+
+                                          /*COLOR DE FONDO*/
+.background-normal {
+  background: var(--bgd-normal);
+}
+
+.background-fire {
+  background: var(--bgd-fire);
+}
+
+.background-water {
+  background: var(--bgd-water);
+
+}
+
+.background-grass {
+  background: var(--bgd-grass);
+}
+
+.background-electric {
+  background: var(--bgd-electric);
+}
+
+.background-ice {
+  background: var(--bgd-ice);
+}
+
+.background-fighting {
+  background: var(--bgd-fighting);
+  color: var(--clr-white);
+}
+
+.background-poison {
+  background: var(--bgd-poison);
+  color: var(--clr-white);
+}
+
+.background-ground {
+  background: var(--bgd-ground);
+}
+
+.background-flying {
+  background: var(--bgd-flying);
+}
+
+.background-psychic {
+  background: var(--bgd-psychic);
+}
+
+.background-bug {
+  background: var(--bgd-bug);
+}
+
+.background-rock {
+  background: var(--bgd-rock);
+}
+
+.background-ghost {
+  background: var(--bgd-ghost);
+  color: var(--clr-white);
+}
+
+.background-dark {
+  background: var(--bgd-dark);
+  color: var(--clr-white);
+}
+
+.background-dragon {
+  background: var(--bgd-dragon);
+  color: var(--clr-white);
+}
+
+.background-steel {
+  background: var(--bgd-steel);
+}
+
+.background-fairy {
+  background: var(--bgd-fairy);
+}
+
+                                          /*TIPOS*/
+:root {
+  /*FONDOS*/
+  --bgd-normal: linear-gradient(200deg, #ada996bc, #f2f2f2bc, #dbdbdbc2, #eaeaeac2);
+  --bgd-fire: linear-gradient(400deg, #dd1818bc, #333333c2);
+  --bgd-water: linear-gradient(400deg, #ffffffbc, #6dd4fabc, #2980B9c2); 
+  --bgd-grass: linear-gradient(400deg, #11998ebc, #6be585c2); 
+  --bgd-electric: linear-gradient(40deg, #fffb0049, #ffffff91);
+  --bgd-ice: linear-gradient(200deg, #5abababc, #f2fcfec2);
+  --bgd-fighting: linear-gradient(200deg, #C03028bc, #ffd194c2); 
+  --bgd-poison: linear-gradient(400deg, #ad5389cf, #3b1053d7);
+  --bgd-ground: linear-gradient(400deg, #7c7162bc, #5b3a29c2);
+  --bgd-flying: linear-gradient(400deg, #12c2e9bc, #c471edc1, #A890F0c2);
+  --bgd-psychic: linear-gradient(200deg, #ec008ea2, #fc6767c2);
+  --bgd-bug: linear-gradient(200deg, #555b28bc, #A8B820c2);
+  --bgd-rock: linear-gradient(200deg, #6d6027bc, #d3cbb8c2);
+  --bgd-ghost: linear-gradient(400deg, #03001ebc, #7303c0c2, #705898bc);
+  --bgd-dark: linear-gradient(400deg, #000000bc, #434343c2);
+  --bgd-dragon: linear-gradient(400deg, #8e2de2bc, #4a00e0c2);
+  --bgd-steel: linear-gradient(400deg, #3e3952d5, #89899bde);
+  --bgd-fairy: linear-gradient(200deg, #ba4e99bc, #d9959cc2); 
+
+  /*TIPOS*/
+
+  --clr-gray: #ececec;
+  --clr-white: #f7f7f7;
+
+
+  --type-normal: #A8A878;
+  --type-fire: #F08030;
+  --type-water: #6890F0;
+  --type-grass: #78C850;
+  --type-electric: #F8D030;
+  --type-ice: #98D8D8;
+  --type-fighting: #C03028;
+  --type-poison: #A040A0;
+  --type-ground: #E0C068;
+  --type-flying: #A890F0;
+  --type-psychic: #F85888;
+  --type-bug: #A8B820;
+  --type-rock: #B8A038;
+  --type-ghost: #705898;
+  --type-dark: #705848;
+  --type-dragon: #7038F8;
+  --type-steel: #B8B8D0;
+  --type-fairy: #F0B6BC;
+
+}
+
+
+.normal {
+  background-color: var(--type-normal);
+}
+
+.fire {
+  background-color: var(--type-fire);
+}
+
+.water {
+  background-color: var(--type-water);
+  color: var(--clr-white);
+}
+
+.grass {
+  background-color: var(--type-grass);
+}
+
+.electric {
+  background-color: var(--type-electric);
+}
+
+.ice {
+  background-color: var(--type-ice);
+}
+
+.fighting {
+  background-color: var(--type-fighting);
+  color: var(--clr-white);
+}
+
+.poison {
+  background-color: var(--type-poison);
+  color: var(--clr-white);
+}
+
+.ground {
+  background-color: var(--type-ground);
+}
+
+.flying {
+  background-color: var(--type-flying);
+}
+
+.psychic {
+  background-color: var(--type-psychic);
+  
+}
+
+.bug {
+  background-color: var(--type-bug);
+}
+
+.rock {
+  background-color: var(--type-rock);
+}
+
+.ghost {
+  background-color: var(--type-ghost);
+  color: var(--clr-white);
+}
+
+.dark {
+  background-color: var(--type-dark);
+  color: var(--clr-white);
+}
+
+.dragon {
+  background-color: var(--type-dragon);
+  color: var(--clr-white);
+}
+
+.steel {
+  background-color: var(--type-steel);
+}
+
+.fairy {
+  background-color: var(--type-fairy);
+}
+
+/*Color de letras*/
+
+.color-normal {
+  color: var(--type-normal);
+}
+
+.color-fire {
+  color: var(--type-fire);
+}
+
+.color-water {
+  color: var(--type-water);
+}
+
+.color-grass {
+  color: var(--type-grass);
+}
+
+.color-electric {
+  color: #663300;
+}
+
+
+
+
+
+.color-ice {
+  color: #36bfbf;
+}
+
+.color-fighting {
+  color: var(--type-fighting);
+}
+
+.color-poison {
+  color:  #f7b7f7;
+}
+
+.color-ground {
+  color: var(--type-ground);
+}
+
+.color-flying {
+  color: var(--type-flying);
+}
+
+.color-psychic {
+  color: #eacce5;
+}
+
+.color-bug {
+  color: #e1e4c7;
+}
+
+.color-rock {
+  color: #e1e4c7;
+}
+
+.color-ghost {
+  color: #c4bad3;
+}
+
+.color-dark {  
+  color: #EABE3F;
+}
+
+.color-dragon {
+  color: #c3abfc;
+}
+
+.color-steel {
+  color: #ffffff;
+}
+
+.color-fairy {
+  color: rgb(249, 211, 211);
+}
+
+
+
+
+
+
+
+
+
+/*RESPONSIVIDAD CELULARES*/
+
+/* 
+@media (max-width: 1280px ){
+
+  .background {
+
+    margin: 50px 40px 90px 40px ;
+  }
+  .imgPP{
+    position: absolute;
+    width: 250px;
+    margin-left: -20%;
+    margin-top: 18%;
+  }
+
+  .name{
+    font-size: 50px;
+    margin-left: -40%;
+    margin-top: 20%;
+  }
+
+  .contTipos{
+    margin-left: -50%;
+  
+  }
+  .tipoPP{
+    padding: 1px 6px;
+    font-size: 20px;
+    margin-left: 10px;
+
+  }
+  .background100 {
+    padding: 20px;
+  }
+  
+  .cont100{
+    align-items: center;
+    flex-direction: column;
+  }
+  .imgPP100 {
+    width: 200px;
+  }
+  
+
+}
+@media (max-width: 1140px){
+  .background {
+    padding-bottom: 900px;
+  }
+
+  .imgPP{
+    margin-left: -5%;
+    margin-top: -14%;
+    width: 250px;
+  }
+  .contInfo{
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: column;
+  }
+  .name{
+    font-size: 30px;
+    text-align: center;
+    margin-left: 60px;
+    margin-top: 140px;
+  }
+  .contTipos{
+    margin-left: 50px;
+    text-align: center;
+  }
+
+
+}
+@media (max-width: 820px) {
+
+
+  .background {
+    padding-bottom: 900px;
+  }
+
+  .imgPP{
+    margin-left: -14%;
+    margin-top: -4%;
+    width: 250px;
+  }
+  .contInfo{
+    margin-top: 45%;
+    margin-right: 40%;
+
+  }
+  .background100 {
+
+    top: 45%;
+  }
+  .imgPP100 {
+    width: 200px;
+  }
+}
+
+@media (max-width: 500px) {
+  .imgPP{
+    margin-left: -24%;
+    margin-top: 0%;
+  }
+  .contInfo{
+    margin-top: 60%;
+    margin-right: 40%;
+  }
+  .background {
+    margin: 0px;
+    padding: 30px 0px 1000px 0px;
+    border-radius: 0px;
+  }
+
+  .background100 {
+    margin: 0px;
+    padding: 30px 52px 70px 50px;
+    flex-direction: column;
+  }
+  
+  .cont100{
+    margin-left: 10%;
+    margin-top: 60%;
+  }
+
+  
+} */

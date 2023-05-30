@@ -1,0 +1,110 @@
+.navbar {
+    height: 60px;
+    background-color: #8B0000;
+    display: flex;
+    align-items: center;
+    position: relative;
+    z-index: +1;
+}
+
+.navContainer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    width: 100%;
+}
+
+.navImg {
+    margin-left: 10px;
+    margin-bottom: 15px;
+    max-width: 150px;
+}
+
+.navLinks {
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    list-style: none;
+    margin: 0;
+    padding-right: 80px;
+}
+
+.navLinks h5{
+    margin-right: -50px;
+    
+}
+.navLinks a {
+    color: rgba(0, 0, 0, 0.814);
+    font-size: 1.3rem;
+    text-decoration: none;
+    padding: 4px;
+    margin: 0px 10px;
+    transition: .8s;
+}
+
+.navLinks a:hover {
+    color: #805151;
+    border-radius: 5px;
+    text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.5);
+}
+
+.navToggle {
+    display: none;
+    cursor: pointer;
+    padding: 10px;
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+}
+
+.navIcon {
+    font-size: 1.5rem;
+}
+
+/* Estilos para dispositivos móviles */
+@media (max-width: 1000px) {
+    .navContainer {
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 0 10px;
+    }
+
+    .navImg {
+        margin-left: 0;
+        margin-bottom: 10px;
+    }
+
+    .navLinks {
+        display: none;
+        flex-direction: column;
+        gap: 5px;
+        padding-left: 0;
+        position: absolute;
+        top: 100%;
+        right: 0;
+        width: 96%;
+        background-color: #8e0909f4;
+        padding: 10px;
+    }
+
+    .navbar.open .navLinks {
+        display: flex;
+    }
+
+    .navToggle {
+        display: block;
+        /* Mostrar el icono del menú hamburguesa en dispositivos móviles */
+    }
+
+    .navToggle:hover .navIcon {
+        color: #805151;
+    }
+
+    .navLinks a {
+        font-size: 0.9rem;
+        margin: 0;
+        padding: 2px;
+    }
+}

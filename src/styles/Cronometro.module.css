@@ -1,0 +1,401 @@
+.cont {
+    display: flex;
+}
+.contTiempo{
+    position: relative;
+}
+.tiempo {
+    font-size: 70px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px 5px rgba(0, 0, 0, 0.5);
+    border-radius: 100vmax;
+    width: 400px;
+}
+
+.btn {
+    padding: 4px 8px;
+    border-radius: 9px;
+    font-size: 18px;
+    margin: 10px;
+    cursor: pointer;
+}
+
+.cont2 {
+    border-radius: 20px;
+    text-shadow: -5px 6px 9px rgba(0, 0, 0, 0.668);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+}
+
+.nivel {
+    font-size: 30px;
+}
+
+
+.pokeball {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.tiempo2 {
+    font-size: 24px;
+}
+
+
+.contlvl100 {
+    position: relative;
+    border-radius: 20px;
+    text-shadow: -5px 6px 9px rgba(0, 0, 0, 0.668);
+    box-shadow: 0px 10px 20px 5px rgba(0, 0, 0, 0.5);
+    padding: 20px 100px;
+    font-size: 20px;
+}
+
+
+
+
+
+@media (max-width: 1060px){
+    .tiempo {
+        font-size: 50px;
+        padding: 20px;
+        width: 300px;
+    }
+    
+    .btn {
+        padding: 4px 8px;
+
+        font-size: 16px;
+        margin: 5px;
+    }
+    
+    .cont2 {
+        border-radius: 20px;
+        padding: 0px
+    }
+    
+    .nivel {
+        font-size: 20px;
+    }
+    
+    
+    .pokeball {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .tiempo2 {
+        font-size: 20px;
+    }
+
+    
+.contlvl100 {
+    padding: 10px 50px;
+    font-size: 20px;
+}
+}
+
+@media (max-width: 800px){
+    .contTiempo{
+        position: absolute;
+        margin-left: 10%;
+    }
+    .btn {
+        padding: 4px 8px;
+
+        font-size: 16px;
+        margin: 5px;
+    }
+    
+    .cont2 {
+        border-radius: 20px;
+        padding: 0px
+    }
+    
+    .nivel {
+        font-size: 20px;
+    }
+    
+    
+    .pokeball {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+    .tiempo2 {
+        font-size: 20px;
+    }
+    .contlvl100 {
+        padding: 2px 30px;
+        font-size: 15px;
+    }
+}
+
+@media (max-width: 690px) {
+    .contlvl100 {
+
+        padding: 10px 50px;
+        font-size: 14px;
+        margin-top: 15px;
+    }
+    .general100{
+        font-size: 22px;
+    }
+    
+}
+@media (max-width: 600px){
+    .contTiempo{
+        margin-left: 7%;
+    }
+}
+
+@media (max-width: 540px){
+    .contTiempo{
+        margin-left: 4%;
+    }
+
+}
+
+@media (max-width: 500px){
+    .contTiempo{
+        margin-left: 8%;
+    }
+    .tiempo {
+        font-size: 30px;
+        padding: 20px;
+        width: 200px;
+        margin-left: 3%;
+    }
+
+    .btn {
+        font-size: 13px;
+        margin: 3px;
+    }
+
+    .nivel {
+        padding-top: 10px;
+        font-size: 17px;
+    }
+    
+    .tiempoUsado{
+        font-size: 20px;
+    }
+    .pokeball {
+        font-size: 18px;
+        font-weight: bold;
+    }
+    
+}
+
+@media (max-width: 470px){
+    .contTiempo{
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 420px){
+    .contTiempo{
+        margin-left: -2%;
+    }
+}
+
+@media (max-width: 400px){
+    .contTiempo{
+        margin-left: -5%;
+    }
+}
+@media (max-width: 360px){
+    .contTiempo{
+        margin-left: -9%;
+    }
+}
+:root {
+    --type-normalcr: #3a3a33a0;
+    --type-firecr: #793e13a1;
+    --type-watercr: #10317c7b;
+    --type-grasscr: #0c1c047a;
+    --type-electriccr: #8a731574;
+    --type-icecr: #2061617c;
+    --type-fightingcr: #360d0b9c;
+    --type-poisoncr: #411641ad;
+    --type-groundcr: #E0C0680c;
+    --type-flyingcr: #19142ba5;
+    --type-psychiccr: #601e32a7;
+    --type-bugcr: #59611698;
+    --type-rockcr: #62551a72;
+    --type-ghostcr: #2d1455b0;
+    --type-darkcr: #090909b4;
+    --type-dragoncr: #1c0c40a1;
+    --type-steelcr: #0000007a;
+    --type-fairycr: #a5525b7d;
+
+
+    --color-normalcr: #c2c29d;
+    --color-firecr: #dfb699;
+    --color-watercr: #bccbef;
+    --color-grasscr: #b1da9d;
+    --color-electriccr: #462402;
+    --color-icecr: #d6eded;
+    --color-fightingcr: #f51003;
+    --color-poisoncr: #d408d4;
+    --color-groundcr: #E0C068;
+    --color-flyingcr: #b7a4ed;
+    --color-psychiccr: #edb9e4;
+    --color-bugcr: #e1e4c7;
+    --color-rockcr: #d2ccaf;
+    --color-ghostcr: #c4bad3;
+    --color-darkcr: #EABE3F;
+    --color-dragoncr: #c3abfc;
+    --color-steelcr: #ffffff;
+    --color-fairycr: rgb(249, 211, 211);
+}
+
+.normal {
+    background-color: var(--type-normalcr);
+    color: var(--color-normalcr);
+}
+
+.fire {
+    background-color: var(--type-firecr);
+    color: var(--color-firecr);
+}
+
+.water {
+    background-color: var(--type-watercr);
+    color: var(--color-watercr);
+}
+
+.grass {
+    background-color: var(--type-grasscr);
+    color: var(--color-grasscr);
+}
+
+.electric {
+    background-color: var(--type-electriccr);
+    color: var(--color-electriccr);
+}
+
+.ice {
+    background-color: var(--type-icecr);
+    color: var(--color-icecr);
+}
+
+.fighting {
+    background-color: var(--type-fightingcr);
+    color: var(--color-fightingcr);
+}
+
+.poison {
+    background-color: var(--type-poisoncr);
+    color: var(--color-poisoncr);
+}
+
+.ground {
+    background-color: var(--type-groundcr);
+    color: var(--color-groundcr);
+}
+
+.flying {
+    background-color: var(--type-flyingcr);
+    color: var(--color-flyingcr);
+}
+
+.psychic {
+    background-color: var(--type-psychiccr);
+    color: var(--color-psychiccr);
+}
+
+.bug {
+    background-color: var(--type-bugcr);
+    color: var(--color-bugcr);
+}
+
+.rock {
+    background-color: var(--type-rockcr);
+    color: var(--color-rockcr);
+}
+
+.ghost {
+    background-color: var(--type-ghostcr);
+    color: var(--color-ghostcr);
+}
+
+.dark {
+    background-color: var(--type-darkcr);
+    color: var(--color-darkcr);
+}
+
+.dragon {
+    background-color: var(--type-dragoncr);
+    color: var(--color-dragoncr);
+}
+
+.steel {
+    background-color: var(--type-steelcr);
+    color: var(--color-steelcr);
+}
+
+.fairy {
+    background-color: var(--type-fairycr);
+    color: var(--color-fairycr);
+}
+
+
+
+/*RESPONSIVIDAD CELULARES*/
+/* @media(max-width: 1280px){
+    .cont2 {
+        font-size: 20px;
+        margin-left: 20px;
+    }
+    .contlvl100 {
+        margin-top: 20px;
+        padding: 20px 80px;
+    }
+    .contTiempo{
+    }
+}
+
+
+@media (max-width: 1140px){
+
+    .contTiempo{
+        margin-right: 200%;
+        margin-top: -10%;
+    }
+
+    .tiempo {
+        font-size: 50px;
+        padding: 10px;
+        width: 250px;
+    }
+
+
+    .cont2 {
+        margin-left: 5%;
+        font-size: 10px;
+    }
+
+    .contlvl100 {
+        font-size: 10px;
+        margin-top: 20px;
+        padding: 20px;
+    }
+}
+@media (max-width: 820px) {
+
+    .contTiempo{
+        margin-right: 370%;
+        margin-top: -10%;
+    }
+
+}
+
+@media (max-width: 500px){
+    
+    .contlvl100 {
+        padding: 10px 10px;
+        margin-right: -5%;
+        font-size: 10px;
+    }
+    
+} */
